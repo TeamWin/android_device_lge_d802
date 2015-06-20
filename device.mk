@@ -28,3 +28,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
 
+PRODUCT_COPY_FILES += \
+	device/lge/g2-common/twrp.fstab:recovery/root/etc/twrp.fstab
